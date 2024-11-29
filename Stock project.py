@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import MinMaxScaler
 
 # Load the dataset
-df = pd.read_csv("C:/Users/Neha Sachdeva/OneDrive/Desktop/Stock.csv")
+df = pd.read_csv(""C:\Users\HP\Desktop\Stock (1).csv"")
 
 # Convert 'Date' to datetime
 df['Date'] = pd.to_datetime(df['Date'], format='%d-%m-%Y')
